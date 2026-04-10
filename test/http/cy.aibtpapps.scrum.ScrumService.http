@@ -1,0 +1,15 @@
+@server=http://localhost:4004
+@username=alice
+@password=
+
+
+### queryTasks
+# @name queryTasks_POST
+POST {{server}}/ScrumService/queryTasks
+Content-Type: application/json
+
+{
+  "state": "In Progress",
+  "assignee": "Chandan Mutyala",
+  "iterationPath": "BTP APPS TEAM\\Sprint 1"
+}
