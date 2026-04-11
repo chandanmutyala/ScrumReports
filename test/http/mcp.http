@@ -1,0 +1,13 @@
+###
+POST http://e5862ed8trial-dev-scrumreports-srv.cfapps.us10-001.hana.ondemand.com/mcp
+Content-Type: application/json
+
+{
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "tools/call",
+  "params": {
+    "name": "queryTasks",
+    "arguments": { "state": "Active" }
+  }
+}
