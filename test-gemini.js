@@ -3,7 +3,7 @@ const { generateText } = require('ai');
 
 // 1. Setup the provider with the key directly
 const google = createGoogleGenerativeAI({
-    apiKey: "AIzaSyD9oYTJuP8-ahPOn84LBNXs8IaGHN79DzI",
+    apiKey: "---ry47i4nbhjf hyD9oYjsKDsnxcjahwu78290",
 });
 
 async function testGeminiModel() {
