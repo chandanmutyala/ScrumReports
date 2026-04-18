@@ -2,12 +2,15 @@
   "name": "scrumreports",
   "version": "1.0.0",
   "dependencies": {
+    "@ai-sdk/google": "^3.0.64",
+    "@ai-sdk/xai": "^3.0.83",
     "@modelcontextprotocol/sdk": "^1.29.0",
     "@sap-cloud-sdk/connectivity": "^4.5.1",
     "@sap-cloud-sdk/http-client": "^4.5.1",
     "@sap-cloud-sdk/resilience": "^4.5.1",
     "@sap/cds": "^9.8.5",
     "@sap/xssec": "^4.13.0",
+    "ai": "^6.0.168",
     "express": "^5.2.1",
     "zod": "^4.3.6"
   },
